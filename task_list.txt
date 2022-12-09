@@ -1,0 +1,17 @@
+1. Describe the RN (20 points)
+In a tutorial fashion describe the RN approach. You can either create a lengthy markdown report (at least 2 pages) or preferably put comments inline with the code (or using markdown cells).
+
+2.Sort-of-CLEVR Dataset (50 points)
+Sort-of-CLEVR is composed of 10000 images and 20 questions (10 relational questions and 10 non-relational questions) per each image. 6 colors (red, green, blue, orange, gray, yellow) are assigned to randomly chosen shape (square or circle), and placed in a image.
+	a.(25 points) Replicate the sort-of-CLEVR dataset results of the paper.
+
+	b. (25 points) Perform the “state description” task and create a table that represents the state of each image as described in the end of section 3.1. You can use a sql database for persisting this information or a python data structure (eg dict) persisted in a file.
+
+3. Scene Parser (10 points)
+Thoroughly explain the operation of the scene parser - almost line by line.
+
+4. Question Parser (10 points)
+Thoroughly explain the operation of the question parser - almost line by line.
+
+5. Program Executor (10 points)
+Thoroughly explain the operation of the question parser - almost line by line.

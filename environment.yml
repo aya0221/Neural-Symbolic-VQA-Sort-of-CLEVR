@@ -1,0 +1,34 @@
+name: RN3
+channels:
+  - defaults
+dependencies:
+  - ca-certificates
+  - certifi
+  # - libcxx
+  # - libcxxabi
+  # - libedit
+  - libffi
+  # - ncurses
+  - openssl
+  - pip=20.0.2=py38_1
+  - python=3.8.1
+  # - readline
+  - setuptools
+  - sqlite=3.31.1
+  - tk
+  - wheel
+  - xz
+  - zlib
+  - pip:
+    # - libcxx
+    # - libcxxabi
+    # - libedit
+    # - readline
+    # - ncurses
+    - numpy==1.18.1
+    - opencv-python==4.2.0.32
+    - torch
+    - tensorboard==2.2.0
+    - tensorboard-plugin-wit==1.6.0.post2
+    - protobuf==3.20.*
+prefix: ~/miniconda3/envs/RN3
